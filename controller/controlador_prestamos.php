@@ -12,6 +12,7 @@ class ControladorPrestamos {
         include_once("view/prestamos/prestamos_inicio.php");
     }   
     public function editar(){
+        $codigo='1';
         if($_POST){
             $id=$_POST['id'];
             $codigo=$_POST['codigo'];
